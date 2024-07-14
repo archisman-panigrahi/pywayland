@@ -1,0 +1,12 @@
+Source: python3-pywayland
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 10), python3-all-dev, python3-setuptools, dh-python
+Standards-Version: 4.5.0
+Maintainer: Archisman Panigrahi <apandada1@gmail.com>
+
+Package: python3-pywayland
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ${shlibs:Depends}, python3-cffi
+Description: Python bindings for the libwayland library 
+ PyWayland provides a wrapper to the libwayland library using the CFFI library to provide access to the Wayland library calls and written in pure Python.
