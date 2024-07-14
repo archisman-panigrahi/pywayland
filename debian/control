@@ -7,6 +7,6 @@ Maintainer: Archisman Panigrahi <apandada1@gmail.com>
 
 Package: python3-pywayland
 Architecture: any
-Depends: ${python3:Depends}, ${misc:Depends}, ${shlibs:Depends}, python3-cffi
+Depends: ${python3:Depends}, ${misc:Depends}, ${shlibs:Depends}, python3-cffi(>=1.12.0)
 Description: Python bindings for the libwayland library 
  PyWayland provides a wrapper to the libwayland library using the CFFI library to provide access to the Wayland library calls and written in pure Python.
